@@ -1,0 +1,51 @@
+svg {
+	position: absolute;
+}
+
+.map {
+	border: medium solid #999;
+    background: black
+}
+.title{
+    align-content: center
+}
+.regions {
+  fill: none;
+  stroke: #000;
+  stroke-width: 0.5px;
+  stroke-linecap: round;
+}
+
+.dropdown {
+	margin-left: 1000px;
+}
+
+.infolabel {
+	position: absolute;
+	width: 240px;
+	height: 50px;
+	color: black;
+	background-color: darkgrey;
+	border: solid thin black;
+	padding: 5px;
+}
+
+.infolabel h1 {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	line-height: 1em;
+}
+
+.infolabel b {
+	float: left;
+}
+
+.labelname {
+	display: inline-block;
+	float: right;
+	margin: -25px 0px 0px 40px;
+	font-size: 1em;
+	font-weight: bold;
+	position: absolute;
+}
